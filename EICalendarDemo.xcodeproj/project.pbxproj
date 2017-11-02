@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30172C1D1FAAF27D007D80F8 /* UIView+CMOExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C021FAAF27D007D80F8 /* UIView+CMOExtention.m */; };
+		30172C1E1FAAF27D007D80F8 /* EICalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C041FAAF27D007D80F8 /* EICalendarViewController.m */; };
+		30172C1F1FAAF27D007D80F8 /* EICalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30172C051FAAF27D007D80F8 /* EICalendarViewController.xib */; };
+		30172C201FAAF27D007D80F8 /* EICalendarRangeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C081FAAF27D007D80F8 /* EICalendarRangeCellModel.m */; };
+		30172C211FAAF27D007D80F8 /* EICalendarLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C0C1FAAF27D007D80F8 /* EICalendarLabel.m */; };
+		30172C221FAAF27D007D80F8 /* EICalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C0E1FAAF27D007D80F8 /* EICalendarMonthHeaderView.m */; };
+		30172C231FAAF27D007D80F8 /* EICalendarOptionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C101FAAF27D007D80F8 /* EICalendarOptionButton.m */; };
+		30172C241FAAF27D007D80F8 /* EICalendarOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C121FAAF27D007D80F8 /* EICalendarOptionView.m */; };
+		30172C251FAAF27D007D80F8 /* EICalendarRangeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C141FAAF27D007D80F8 /* EICalendarRangeCell.m */; };
+		30172C261FAAF27D007D80F8 /* EICalendarRangeCellCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C161FAAF27D007D80F8 /* EICalendarRangeCellCoverView.m */; };
+		30172C271FAAF27D007D80F8 /* EICalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C181FAAF27D007D80F8 /* EICalendarView.m */; };
+		30172C281FAAF27D007D80F8 /* EICalendarViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C1A1FAAF27D007D80F8 /* EICalendarViewFlowLayout.m */; };
+		30172C291FAAF27D007D80F8 /* EICalendarWeekdayHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C1C1FAAF27D007D80F8 /* EICalendarWeekdayHeaderView.m */; };
+		30172C2D1FAAF303007D80F8 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C2C1FAAF303007D80F8 /* UIViewExt.m */; };
+		30172C301FAAF37C007D80F8 /* UIColor+CMOHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C2F1FAAF37C007D80F8 /* UIColor+CMOHex.m */; };
+		30172C331FAAF807007D80F8 /* DSToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 30172C321FAAF807007D80F8 /* DSToast.m */; };
 		30428F171DE581DB009736C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30428F161DE581DB009736C7 /* main.m */; };
 		30428F1A1DE581DB009736C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30428F191DE581DB009736C7 /* AppDelegate.m */; };
 		30428F1D1DE581DB009736C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30428F1C1DE581DB009736C7 /* ViewController.m */; };
@@ -15,6 +31,7 @@
 		30428F251DE581DB009736C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30428F231DE581DB009736C7 /* LaunchScreen.storyboard */; };
 		30428F301DE581DB009736C7 /* EICalendarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30428F2F1DE581DB009736C7 /* EICalendarDemoTests.m */; };
 		30428F3B1DE581DB009736C7 /* EICalendarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30428F3A1DE581DB009736C7 /* EICalendarDemoUITests.m */; };
+		9D8B34ADC3D6A5CEDD431112 /* Pods_EICalendarDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9470C78327B0D734F07F771F /* Pods_EICalendarDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3009106A1DE6EC1C00D8CED6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		3009106B1DE6EC1C00D8CED6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		30172C011FAAF27D007D80F8 /* UIView+CMOExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CMOExtention.h"; sourceTree = "<group>"; };
+		30172C021FAAF27D007D80F8 /* UIView+CMOExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CMOExtention.m"; sourceTree = "<group>"; };
+		30172C031FAAF27D007D80F8 /* EICalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarViewController.h; sourceTree = "<group>"; };
+		30172C041FAAF27D007D80F8 /* EICalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarViewController.m; sourceTree = "<group>"; };
+		30172C051FAAF27D007D80F8 /* EICalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EICalendarViewController.xib; sourceTree = "<group>"; };
+		30172C071FAAF27D007D80F8 /* EICalendarRangeCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarRangeCellModel.h; sourceTree = "<group>"; };
+		30172C081FAAF27D007D80F8 /* EICalendarRangeCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarRangeCellModel.m; sourceTree = "<group>"; };
+		30172C0A1FAAF27D007D80F8 /* EICalendarEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarEnum.h; sourceTree = "<group>"; };
+		30172C0B1FAAF27D007D80F8 /* EICalendarLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarLabel.h; sourceTree = "<group>"; };
+		30172C0C1FAAF27D007D80F8 /* EICalendarLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarLabel.m; sourceTree = "<group>"; };
+		30172C0D1FAAF27D007D80F8 /* EICalendarMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarMonthHeaderView.h; sourceTree = "<group>"; };
+		30172C0E1FAAF27D007D80F8 /* EICalendarMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarMonthHeaderView.m; sourceTree = "<group>"; };
+		30172C0F1FAAF27D007D80F8 /* EICalendarOptionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarOptionButton.h; sourceTree = "<group>"; };
+		30172C101FAAF27D007D80F8 /* EICalendarOptionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarOptionButton.m; sourceTree = "<group>"; };
+		30172C111FAAF27D007D80F8 /* EICalendarOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarOptionView.h; sourceTree = "<group>"; };
+		30172C121FAAF27D007D80F8 /* EICalendarOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarOptionView.m; sourceTree = "<group>"; };
+		30172C131FAAF27D007D80F8 /* EICalendarRangeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarRangeCell.h; sourceTree = "<group>"; };
+		30172C141FAAF27D007D80F8 /* EICalendarRangeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarRangeCell.m; sourceTree = "<group>"; };
+		30172C151FAAF27D007D80F8 /* EICalendarRangeCellCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarRangeCellCoverView.h; sourceTree = "<group>"; };
+		30172C161FAAF27D007D80F8 /* EICalendarRangeCellCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarRangeCellCoverView.m; sourceTree = "<group>"; };
+		30172C171FAAF27D007D80F8 /* EICalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarView.h; sourceTree = "<group>"; };
+		30172C181FAAF27D007D80F8 /* EICalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarView.m; sourceTree = "<group>"; };
+		30172C191FAAF27D007D80F8 /* EICalendarViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarViewFlowLayout.h; sourceTree = "<group>"; };
+		30172C1A1FAAF27D007D80F8 /* EICalendarViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarViewFlowLayout.m; sourceTree = "<group>"; };
+		30172C1B1FAAF27D007D80F8 /* EICalendarWeekdayHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EICalendarWeekdayHeaderView.h; sourceTree = "<group>"; };
+		30172C1C1FAAF27D007D80F8 /* EICalendarWeekdayHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EICalendarWeekdayHeaderView.m; sourceTree = "<group>"; };
+		30172C2B1FAAF303007D80F8 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		30172C2C1FAAF303007D80F8 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		30172C2E1FAAF37C007D80F8 /* UIColor+CMOHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CMOHex.h"; sourceTree = "<group>"; };
+		30172C2F1FAAF37C007D80F8 /* UIColor+CMOHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CMOHex.m"; sourceTree = "<group>"; };
+		30172C311FAAF806007D80F8 /* DSToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSToast.h; sourceTree = "<group>"; };
+		30172C321FAAF807007D80F8 /* DSToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSToast.m; sourceTree = "<group>"; };
 		30428F121DE581DB009736C7 /* EICalendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EICalendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30428F161DE581DB009736C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30428F181DE581DB009736C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +102,9 @@
 		30428F361DE581DB009736C7 /* EICalendarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EICalendarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30428F3A1DE581DB009736C7 /* EICalendarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EICalendarDemoUITests.m; sourceTree = "<group>"; };
 		30428F3C1DE581DB009736C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9470C78327B0D734F07F771F /* Pods_EICalendarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EICalendarDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BDB3970DEFC747010D0672 /* Pods-EICalendarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EICalendarDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EICalendarDemo/Pods-EICalendarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D96A3F0BB6B51F1CCB43D08B /* Pods-EICalendarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EICalendarDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EICalendarDemo/Pods-EICalendarDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8B34ADC3D6A5CEDD431112 /* Pods_EICalendarDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +133,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30172BFF1FAAF27D007D80F8 /* EICalendarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30172C2A1FAAF2B1007D80F8 /* Util */,
+				30172C001FAAF27D007D80F8 /* Category */,
+				30172C031FAAF27D007D80F8 /* EICalendarViewController.h */,
+				30172C041FAAF27D007D80F8 /* EICalendarViewController.m */,
+				30172C051FAAF27D007D80F8 /* EICalendarViewController.xib */,
+				30172C061FAAF27D007D80F8 /* Models */,
+				30172C091FAAF27D007D80F8 /* Views */,
+			);
+			path = EICalendarViewController;
+			sourceTree = "<group>";
+		};
+		30172C001FAAF27D007D80F8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				30172C2E1FAAF37C007D80F8 /* UIColor+CMOHex.h */,
+				30172C2F1FAAF37C007D80F8 /* UIColor+CMOHex.m */,
+				30172C011FAAF27D007D80F8 /* UIView+CMOExtention.h */,
+				30172C021FAAF27D007D80F8 /* UIView+CMOExtention.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		30172C061FAAF27D007D80F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30172C071FAAF27D007D80F8 /* EICalendarRangeCellModel.h */,
+				30172C081FAAF27D007D80F8 /* EICalendarRangeCellModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30172C091FAAF27D007D80F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30172C0A1FAAF27D007D80F8 /* EICalendarEnum.h */,
+				30172C0B1FAAF27D007D80F8 /* EICalendarLabel.h */,
+				30172C0C1FAAF27D007D80F8 /* EICalendarLabel.m */,
+				30172C0D1FAAF27D007D80F8 /* EICalendarMonthHeaderView.h */,
+				30172C0E1FAAF27D007D80F8 /* EICalendarMonthHeaderView.m */,
+				30172C0F1FAAF27D007D80F8 /* EICalendarOptionButton.h */,
+				30172C101FAAF27D007D80F8 /* EICalendarOptionButton.m */,
+				30172C111FAAF27D007D80F8 /* EICalendarOptionView.h */,
+				30172C121FAAF27D007D80F8 /* EICalendarOptionView.m */,
+				30172C131FAAF27D007D80F8 /* EICalendarRangeCell.h */,
+				30172C141FAAF27D007D80F8 /* EICalendarRangeCell.m */,
+				30172C151FAAF27D007D80F8 /* EICalendarRangeCellCoverView.h */,
+				30172C161FAAF27D007D80F8 /* EICalendarRangeCellCoverView.m */,
+				30172C171FAAF27D007D80F8 /* EICalendarView.h */,
+				30172C181FAAF27D007D80F8 /* EICalendarView.m */,
+				30172C191FAAF27D007D80F8 /* EICalendarViewFlowLayout.h */,
+				30172C1A1FAAF27D007D80F8 /* EICalendarViewFlowLayout.m */,
+				30172C1B1FAAF27D007D80F8 /* EICalendarWeekdayHeaderView.h */,
+				30172C1C1FAAF27D007D80F8 /* EICalendarWeekdayHeaderView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30172C2A1FAAF2B1007D80F8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				30172C311FAAF806007D80F8 /* DSToast.h */,
+				30172C321FAAF807007D80F8 /* DSToast.m */,
+				30172C2B1FAAF303007D80F8 /* UIViewExt.h */,
+				30172C2C1FAAF303007D80F8 /* UIViewExt.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		30428F091DE581DB009736C7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +211,8 @@
 				30428F2E1DE581DB009736C7 /* EICalendarDemoTests */,
 				30428F391DE581DB009736C7 /* EICalendarDemoUITests */,
 				30428F131DE581DB009736C7 /* Products */,
+				6D9AF66A70122E15D5E33AEF /* Pods */,
+				7A5FE659EBDA381C9E3334C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +229,7 @@
 		30428F141DE581DB009736C7 /* EICalendarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				30172BFF1FAAF27D007D80F8 /* EICalendarViewController */,
 				30428F181DE581DB009736C7 /* AppDelegate.h */,
 				30428F191DE581DB009736C7 /* AppDelegate.m */,
 				30428F1B1DE581DB009736C7 /* ViewController.h */,
@@ -140,6 +269,23 @@
 			path = EICalendarDemoUITests;
 			sourceTree = "<group>";
 		};
+		6D9AF66A70122E15D5E33AEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96A3F0BB6B51F1CCB43D08B /* Pods-EICalendarDemo.debug.xcconfig */,
+				C8BDB3970DEFC747010D0672 /* Pods-EICalendarDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A5FE659EBDA381C9E3334C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9470C78327B0D734F07F771F /* Pods_EICalendarDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30428F3F1DE581DB009736C7 /* Build configuration list for PBXNativeTarget "EICalendarDemo" */;
 			buildPhases = (
+				26D9EE6D87C3FC4E50B4662D /* [CP] Check Pods Manifest.lock */,
 				30428F0E1DE581DB009736C7 /* Sources */,
 				30428F0F1DE581DB009736C7 /* Frameworks */,
 				30428F101DE581DB009736C7 /* Resources */,
+				083EFA2E013465437F2AFD80 /* [CP] Embed Pods Frameworks */,
+				FB2B285A089550C25E1EC065 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30172C1F1FAAF27D007D80F8 /* EICalendarViewController.xib in Resources */,
 				30428F251DE581DB009736C7 /* LaunchScreen.storyboard in Resources */,
 				30428F221DE581DB009736C7 /* Assets.xcassets in Resources */,
 				30428F201DE581DB009736C7 /* Main.storyboard in Resources */,
@@ -271,14 +421,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		083EFA2E013465437F2AFD80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EICalendarDemo/Pods-EICalendarDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26D9EE6D87C3FC4E50B4662D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2B285A089550C25E1EC065 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EICalendarDemo/Pods-EICalendarDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30428F0E1DE581DB009736C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				30428F1D1DE581DB009736C7 /* ViewController.m in Sources */,
+				30172C301FAAF37C007D80F8 /* UIColor+CMOHex.m in Sources */,
+				30172C251FAAF27D007D80F8 /* EICalendarRangeCell.m in Sources */,
 				30428F1A1DE581DB009736C7 /* AppDelegate.m in Sources */,
+				30172C261FAAF27D007D80F8 /* EICalendarRangeCellCoverView.m in Sources */,
+				30172C201FAAF27D007D80F8 /* EICalendarRangeCellModel.m in Sources */,
+				30172C271FAAF27D007D80F8 /* EICalendarView.m in Sources */,
+				30172C231FAAF27D007D80F8 /* EICalendarOptionButton.m in Sources */,
+				30172C241FAAF27D007D80F8 /* EICalendarOptionView.m in Sources */,
+				30172C211FAAF27D007D80F8 /* EICalendarLabel.m in Sources */,
 				30428F171DE581DB009736C7 /* main.m in Sources */,
+				30172C1E1FAAF27D007D80F8 /* EICalendarViewController.m in Sources */,
+				30172C331FAAF807007D80F8 /* DSToast.m in Sources */,
+				30172C281FAAF27D007D80F8 /* EICalendarViewFlowLayout.m in Sources */,
+				30172C1D1FAAF27D007D80F8 /* UIView+CMOExtention.m in Sources */,
+				30172C291FAAF27D007D80F8 /* EICalendarWeekdayHeaderView.m in Sources */,
+				30172C221FAAF27D007D80F8 /* EICalendarMonthHeaderView.m in Sources */,
+				30172C2D1FAAF303007D80F8 /* UIViewExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +531,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				30428F1F1DE581DB009736C7 /* Base */,
+				3009106A1DE6EC1C00D8CED6 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -326,6 +540,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				30428F241DE581DB009736C7 /* Base */,
+				3009106B1DE6EC1C00D8CED6 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -337,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -385,6 +601,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -425,6 +642,7 @@
 		};
 		30428F401DE581DB009736C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96A3F0BB6B51F1CCB43D08B /* Pods-EICalendarDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6CET8PW4GJ;
@@ -437,6 +655,7 @@
 		};
 		30428F411DE581DB009736C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BDB3970DEFC747010D0672 /* Pods-EICalendarDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6CET8PW4GJ;
@@ -516,6 +735,7 @@
 				30428F411DE581DB009736C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30428F421DE581DB009736C7 /* Build configuration list for PBXNativeTarget "EICalendarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +744,7 @@
 				30428F441DE581DB009736C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30428F451DE581DB009736C7 /* Build configuration list for PBXNativeTarget "EICalendarDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +753,7 @@
 				30428F471DE581DB009736C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
